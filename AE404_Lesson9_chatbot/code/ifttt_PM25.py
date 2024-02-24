@@ -13,10 +13,10 @@ time.sleep(3)
 
 #下拉選單選擇台北松山
 selectCounty = Select(chrome.find_element(By.ID, 'ddl_county'))
-selectCounty.select_by_index(1)
+selectCounty.select_by_index(7)
 time.sleep(1)
 selectSite = Select(chrome.find_element(By.ID, 'ddl_site'))
-selectSite.select_by_index(4)
+selectSite.select_by_index(1)
 time.sleep(1)
 
 #取得測站點、時間、PM2.5值
